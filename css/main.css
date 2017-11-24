@@ -1,0 +1,179 @@
+.up{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid white;
+	z-index: 1;
+	display: block;
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 400px;
+	margin-bottom: 0px;
+}
+.left{
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid white;
+	border-bottom: 25px solid transparent;
+	z-index: 1;
+	display: block;
+	position: absolute;
+	margin-left: 55%;
+	margin-top: 455px;
+	margin-bottom: 0px;
+}
+.right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid white;
+	border-bottom: 25px solid transparent;
+	z-index: 1;
+	display: block;
+	position: absolute;
+	margin-left: 65%;
+	margin-top: 455px;
+	margin-bottom: 0px;
+}
+.down{
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid white;
+	z-index: 1;
+	display: block;
+	position: absolute;
+	margin-left: 60%;
+	margin-top: 520px;
+
+}
+
+#button{
+opacity: 0.3;
+}
+#full{
+	width: 100%;
+	margin-top: 0px;
+}
+#cb{
+	width: 100%;
+	margin-top: 0px;
+}
+#find{
+	width: 100%;
+	margin-top: 0px;
+}
+
+
+
+
+.random{
+	font-family: sans-serif;
+	margin-top: 20px;
+	font-size: 16px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding: 10px;
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+img{
+	width: 600px;
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+
+
+@media only screen and (min-width: 501px) {
+    #button, .up, .down, .right, .left {display: block;
+
+    }
+
+	.one .random{
+    	display: none;
+    }
+
+    a{
+    	display: none;
+
+   }
+   #open, #za {display: block;
+
+   }
+   #cb{
+   	display: block;
+ 
+	}
+	#find{
+   	display: block;
+
+	}
+
+
+    	}
+
+@media only screen and (max-width: 500px) {
+	.random{
+		display: block;
+		margin-left: 0px;
+		margin-top: 5px;
+		margin-bottom: 0px;
+		letter-spacing: 4px;
+		
+	}
+	#button, .up, .down, .right, .left{
+		display: none;
+	}
+	img{
+		width: 250px;
+	}
+	a{
+		display: inline-block;
+		font-size: 20px;
+	}
+	#full{
+		display: block;
+		width: 250px;
+		margin-top: 50px;
+	}
+	#mobile{
+		height: 100%;
+			
+
+	}
+
+	#cb{
+		display: block;
+		position: relative;
+		height: 1000px;
+		width: 1000px;
+
+	}
+	#find{
+		display: block;
+		position: relative;
+		height: 1000px;
+		width: 1000px;
+
+	}
+
+
+
+}
+
+
+
+
